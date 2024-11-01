@@ -1,0 +1,29 @@
+{
+    "Meta": {
+        "Title": "DEALLS - TEST",
+        "Description": "Test Dealls BE",
+        "Host": "localhost:8080",
+        "Basepath": "/",
+        "Version": "localhost"
+    },
+    "Gin": {
+        "Host": "localhost",
+        "Port": "8080",
+        "Mode": "debug",
+        "Timeout": "100s",
+        "ShutdownTimeout": "10s"
+    },
+    "Log": {
+        "Level": "debug"
+    },
+    "SQL": {
+        "Driver": "mysql",
+        "Host": "127.0.0.1",
+        "Port": "3306",
+        "DB": "test_dealls",
+        "User": "root",
+        "Password": "",
+        "SSL": null,
+        "Schema": null
+    }
+}
